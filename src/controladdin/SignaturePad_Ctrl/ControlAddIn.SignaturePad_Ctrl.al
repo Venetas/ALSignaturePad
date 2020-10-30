@@ -11,9 +11,9 @@ controladdin "SignaturePad_Ctrl"
     HorizontalStretch = true;
     HorizontalShrink = true;
     Scripts =
-        'scripts/signature_pad.umd.js',
-        'scripts/procedure.js';
-    StyleSheets = 'scripts/Signature_css.css';
+        'scripts/SignaturePad/signature_pad.umd.js',
+        'scripts/SignaturePad/procedure.js';
+    StyleSheets = 'scripts/SignaturePad/Signature_css.css';
 
 
     event OnControlAddInReady();
